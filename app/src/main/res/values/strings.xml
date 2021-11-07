@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Concurso</string>
+    <string name="botonInfo">Información</string>
+    <string name="botonGuia">¿Qué hacer en una situación de riesgo?</string>
+    <string name="botonAyuda">Buscar ayuda</string>
+    <string name="botonVerContactos">Ver Contactos</string>
+    <string name="botonInicio">Inicio</string>
+    <string name="botonOrientacion">Orientacion</string>
+    <string name="botonRecomendacion">Recomendaciones</string>
+    <string name="Numerodetelefono">9823232424</string>
+    <string name="Mas">Agregar mas contactos</string>
+    <string name="Mensaje">Acciona el boton de volumen prolongadamente para poder enviar mensajes a los contactos registrados</string>
+    <string name="cem">Los Centros de Emergencia Mujer son servicios publicos especializados y gratuitos para victimas de violencia contra la mujer e integrantes del grupo familiar.
+        Puedes consultar los CEM mas cercanos a tu ubicacion.</string>
+    <string name="chat100">La Línea 100 es un servicio telefónico gratuito integrado por profesionales en derecho, psicología y trabajo social.</string>
+    <string name="comisarias">Tiene la obligación de garantizar la seguridad de su distrito</string>
+    <string name="fiscalia">La Fiscalía General de la Nación es la entidad encargada de investigar y acusar ante los juzgados y tribunales competentes a quienes se presuma han
+        cometido algún delito que atente contra la vida, la seguridad o los bienes de otro.</string>
+    <string name="flora">Tiene como misión “combatir las causas estructurales que restringen la ciudadanía de las mujeres y/o afectan su ejercicio.</string>
+    <string name="linea100">La Línea 100 es un servicio telefónico gratuito integrado por profesionales en derecho, psicología y trabajo social que brindan información.</string>
+    <string name="gracias">Gracias por preferirnos,estamos mejorando cada vez mas...Recuerda que nunca estaras sola.</string>
+    <string name="Agregarcontacto">Agregar Contacto</string>
+    <string name="Seleccionarcontacto">Seleccionar Contacto</string>
+</resources>

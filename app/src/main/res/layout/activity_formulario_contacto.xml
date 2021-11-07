@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/rosado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/agregarcontacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Agregarcontacto"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/rojo"
+        android:layout_marginTop="30dp"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSeleccionarC"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/agregarcontacto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:text="@string/Seleccionarcontacto">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/btnSeleccionarC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Nombre de contacto:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtNomc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+    </EditText>
+    <TextView
+        android:id="@+id/txtNumc"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtNomc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Numero de contacto:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:id="@+id/barrita2"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNumc"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+
+    </EditText>
+    <Button
+        android:id="@+id/btnAgregarC"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/barrita2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:text="Agregar Contacto">
+
+    </Button>
+</RelativeLayout>

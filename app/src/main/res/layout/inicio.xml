@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/rosado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu" />
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="200dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_height="160dp"
+        android:src="@drawable/subir1">
+    </ImageView>
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="Sube el volumen a tu voz"
+        android:layout_below="@+id/imagen">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/texto2"
+        android:layout_marginStart="30dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Mensaje"
+        android:layout_below="@+id/texto1">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/btnRedondo"
+        android:layout_width="159dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/texto2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/borde_redondo"
+        android:text="Hola me llamo andre"
+        android:textColor="#000000">
+    </ImageView>
+</RelativeLayout>

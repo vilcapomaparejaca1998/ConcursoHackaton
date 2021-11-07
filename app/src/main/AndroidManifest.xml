@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.concurso">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Concurso">
+        <activity
+            android:name=".mostrar_contacto"
+            android:exported="false" />
+        <activity
+            android:name=".formulario_contacto"
+            android:exported="false" />
+        <activity
+            android:name=".graciass"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".flora"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.TemaPopup" />
+        <activity
+            android:name=".comisarias"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.TemaPopup" />
+        <activity
+            android:name=".fiscalia"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.TemaPopup" />
+        <activity
+            android:name=".chat100"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.TemaPopup" />
+        <activity
+            android:name=".linea100"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.TemaPopup" />
+        <activity
+            android:name=".cem"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.TemaPopup" />
+        <activity
+            android:name=".buscar_ayuda"
+            android:exported="false" />
+        <activity
+            android:name=".informacion_pantalla"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ForegroundService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
